@@ -1,0 +1,2 @@
+# nietzscheBot
+Nietzsche Chat Bot
