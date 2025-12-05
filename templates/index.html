@@ -7,10 +7,19 @@
     <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
-    <h1>Ask Nietzsche a question: </h1>
-    <input type="text" id="user-input" class="user-input" placeholder="Your question...">
-    <button id="send-button" class="send-button">Send</button>
-    <p><strong>Nietzsche says:</strong> <span id="nietzsche-output">...waiting for your question</span></p>
+    <div class="body">
+
+        <div class="img-container">
+            <img src="/images/Nietzsche.jpg" class="nietzsche-img">
+        </div>
+        
+        <div class="bot-container">
+            <h1>Ask Nietzsche a question: </h1>
+            <p><input type="text" id="user-input" class="user-input" placeholder="Your question..."></p>
+            <p><button id="send-button" class="send-button">Send</button></p>
+            <p><strong>Nietzsche says:</strong> <span id="nietzsche-output">...waiting for your question</span></p>
+        </div>
+    </div>
     <script src="/static/app.js"></script>
 </body>
 </html>

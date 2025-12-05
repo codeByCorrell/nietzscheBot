@@ -1,4 +1,52 @@
 .user-input{
-    width: 400px;
-    padding: 10px;
+    width: 80%;
+    padding: 1rem;
+    background-color: transparent;
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    
 }
+
+.send-button{
+    cursor: pointer;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 10px grey;
+}
+
+.body{
+    width: 100%;
+    position: relative;
+    
+}
+
+.bot-container{
+    width: 100%;
+    position: absolute;
+}
+
+.img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nietzsche-img{
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    opacity: 0.3;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+}
+

@@ -16,6 +16,7 @@ app = FastAPI()
 # Configuration of template (index.html) and static files (js and css)
 templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/images",StaticFiles(directory="images"), name="images")
 
 # Definition of structure of user-input (json which contains 'message:' and message has to be a string)
 class ChatRequest(BaseModel):
