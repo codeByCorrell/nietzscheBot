@@ -10,7 +10,8 @@ This is a small Gemini based chat bot that embodies the German philosopher Fried
 - create an .env File where you save your API key as follows: ```GEMINI_API_KEY="YOUR KEY"```
 
 ## Start
-Run ```uvicorn main:app --reload```
+Run ```uvicorn main:app --reload```<br>
+Open your browser, go to http://127.0.0.1:8000/ and start your philosophical discussion!
 
 ## Note
 Right now everything is very very basic and simple ... but it will get more beautifull!
