@@ -56,8 +56,13 @@ async def handle_chat(request: ChatRequest):
             config=config,
         )
 
+        nietzsche_text = response.text
+        
+        # remove all * signs
+        nietzsche_text = nietzsche_text.replace('*', '')
+
         # return gemini's answer
-        return {"response": response.text}
+        return {"response": nietzsche_text}
 
     except APIError as e:
         # catch api error
