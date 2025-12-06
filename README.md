@@ -4,7 +4,7 @@ This is a small Gemini based chat bot that embodies the German philosopher Fried
 
 ## Installation
 - please make sure that Python and pip are installed on your system.
-- create a virtual environment: ```python -m venv .venv```
+- create a virtual environment: ```python -m venv .venv``` (if necessary you need to install the python3-venv package first: e.g. sudo apt install python3.12-venv)
 - activate the virtual environment: ```source .venv/bin/activate``` (on linux systems)
 - install all required python modules: ```python -m pip install -r requirements.txt```
 - create an .env File where you save your API key as follows: ```GEMINI_API_KEY="YOUR KEY"```
